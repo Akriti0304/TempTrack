@@ -1,0 +1,13 @@
+#search{
+    height: 2rem;
+    width:40rem;
+}
+
+#searchBtn{
+    height: 3.5rem;
+    width:8rem;
+}
+
+form{
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+#info{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#card{
+    border: 0.1rem solid black;
+}
