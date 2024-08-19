@@ -5,8 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Alert from '@mui/material/Alert';
 import Stack from '@mui/material/Stack';
 import "./SearchBox.css"
-// 5152715f7205ceea89b58ee4b9cc9e0a
-//https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}&units=metric
+
 
 export default function Weather({fetchInfo}){
 
@@ -14,7 +13,7 @@ export default function Weather({fetchInfo}){
     let [error,setError]=useState(false);
 
     let url="https://api.openweathermap.org/data/2.5/weather";
-    let key="5152715f7205ceea89b58ee4b9cc9e0a";
+    let key=import.meta.env.VITE_API_KEY;
 
     let getInfo=async ()=>{
         try {
